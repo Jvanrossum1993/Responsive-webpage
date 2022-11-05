@@ -1,0 +1,387 @@
+/* Homepage ********************************************************************/
+/* {
+  margin: 0;
+}*/ 
+
+body { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  width:100% ;
+  margin: 0;
+}
+
+.container {
+  background-color:white; 
+  text-align: center;
+  width: 100%; 
+}
+
+.logo{
+  padding: 0px;
+  margin: 0px;
+  width: 260px;
+  height: 130px;
+  display:inline-block;
+  text-align:center;
+}
+
+ul {
+  padding-inline-start: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+ 
+li {
+text-decoration: none;
+display: inline;
+position: relative;
+}
+
+.upper-link { 
+  display:inline;
+  color:#00c2e1;
+  float:right;
+  text-align:center;
+  text-decoration:none;
+  font-size: 18px;
+  padding: 0px 12px 0px 12px
+}
+
+.background {
+  background-image: url("people_image1a.jpg");
+  background-repeat:no-repeat;
+  background-size:cover ;
+  height: 100%;
+  width: 100%;
+  } 
+
+  .centered-text {
+    color:white; 
+    text-align:center;
+    padding: 30px 25px; 
+    margin: 0px 0px 0px 0px ;
+}
+  
+  .center-child { 
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    line-height: 40px;
+    margin: 30px 0px 50px 0px;
+    box-sizing: border-box;
+    width: 100%
+  }
+
+  .basic-parent {
+    background-color: #f2f2f2;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .basic-sibling {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .basic-child {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    line-height: 40px;
+    margin: 0px 0px 40px 0px;
+    box-sizing: border-box;
+    width: 100%
+  }
+
+  input[type=sign-up] {
+    width: 40%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: white;
+    padding: 5% 10%;
+    margin: 8px 0; 
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .sign-up-home {
+    display: flex;
+    justify-content:space-around ;
+    text-decoration: none;
+  }
+
+  .sign-up-home :hover{
+  background-color: #00c2e1;
+  transition-duration: 2s;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    color:#ffffff;
+    background-color: #00c2e1;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+/* Sign up page ******************************************************************************************************/
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ }
+
+ textarea {
+  width: 328px;
+  height: 88px;
+ }
+
+input[type=radio] {
+  width: 100%;
+  margin: 8px 0px 0px 0px;
+}
+
+input[type=checkbox] {
+  width: 100%;
+  margin: 8px 0px;
+}
+
+input[type=submit] {
+  font-size: 16px;
+  width: 100%;
+  background-color:#00c2e1 ;
+  color: white;
+  padding: 14px 20px;
+  margin: 60px 0px 0px 0px;
+  border: solid 1px;
+  border-color:black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Review page ************************************************************************************/
+.reviews {
+  background-color: #f2f2f2;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.reviewbox {
+  color:#575757;
+  text-align: center;
+  padding: 20px;
+  margin: 25px 25px 25px 25px ;
+  box-sizing: border-box; 
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: 22px;
+  color:#000000;
+  margin-top: 40px;
+  text-align: center;
+  background-color:#f2f2f2 ;
+}
+
+h3 {
+  color:black;
+}
+
+.profile-icon {
+  width: 50%;
+  border-radius: 100%;
+  background-color:#00c2e1;
+}
+/* people page ************************************************************************************/
+  .people-container {
+    background-color:#f2f2f2
+  }
+
+  .people-background {
+    background-image: url("people_image.jpg");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+  }
+
+  .people-background1 {
+    background-image: url("people_image3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+  }
+
+  .people-background2 {
+    background-image: url("people_image2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover ;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .people-parent {
+    color:white; 
+    text-align:center;
+    padding: 30px 25px; 
+    margin: 30px 0px 0px 0px ;
+ }
+  
+  .people-child { 
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    line-height: 40px;
+    margin: 30px 0px 50px 0px;
+    box-sizing: border-box;
+    width: 100%
+  }
+
+  .people-child2 { 
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    line-height: 40px;
+    margin: 30px 0px 50px 0px;
+    box-sizing: border-box;
+    width: 100%
+  }
+
+  .head-people{
+    color:#ffffff ;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+/* Desktop pages *******************************************************************************************/
+
+@media (min-width: 1000px) {
+  
+.logo {
+  float: left;
+  height: 100px;
+  width: 220px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0px;
+  padding: 38px 0px 41px 0px; 
+}  
+
+.upper-link{
+  background-color: #ffffff;
+  padding: 0px 40px 0px 40px;
+}
+
+.background{
+  background-image: url("people_image1.jpg");
+  width: 100%;
+  height: 725px;
+}
+
+.centered-text {
+  padding: 100px 25px;
+}
+
+.center-child { 
+  padding: 20px 70px 0px 70px;
+}
+
+.basic-parent {
+  flex-direction: row;
+  
+}
+
+input[type=sign-up] {
+  width: 20%;
+  padding:4% 8%;
+}
+
+.sign-up-home{
+  margin: 80px 0px 0px 0px;
+}
+
+/* Review page ******************************************************/
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reviewbox {
+  background-color:white;
+  display: table;
+  margin: 40px 25px 25px 25px ;
+  width: 15%; 
+}
+
+/* Sign up page*****************************************************/
+textarea {
+  width: 977px;
+  height: 60px;
+ }
+
+/* People page******************************************************/
+.people-container{
+  display:flex ;
+}
+
+.people-background {
+  width: 33%;
+}
+
+.people-background1 {
+  width: 33%;
+  margin-left: 3px;
+}
+
+.people-background2 {
+  width: 33%;
+  margin-left: 3px;
+}
+
+.people-parent {
+ height: 490px;
+ margin: 0px;
+}
+
+.people-child{
+  margin: 0px;
+  padding: 5px 20px 0px 20px;
+}
+}

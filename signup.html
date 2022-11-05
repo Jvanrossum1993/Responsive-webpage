@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Studio Code</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> 
+
+  <header class="container"> 
+ 
+    
+    <nav>
+      <li> <a href="index.html" target="blank"> 
+        <img class="logo" src="logo_winc.png" alt="logo" > 
+       </a> 
+       </li>
+    
+        <ul>
+         <li> <a class="upper-link" href="people.html" target="blank"> Meet New People</a> </li>
+         <li> <a class="upper-link" href="review.html" target="blank"> Reviews </a> </li>
+         <li> <a class="upper-link" href="signup.html" target="blank"> Sign Up </a> </li>
+        
+        </ul>
+     
+      </nav>
+    </header>
+  
+<main>
+ <form>
+   <label for="username">Username:</label> 
+   <input type="text" id="username" name="username" placeholder="Choose your username.."> 
+   <label for="password">Password:</label>
+   <input type="text" id="password" name="password" placeholder="Choose your password.. ">
+   <label for="fname">First name:</label>
+   <input type="text" id="fname" name="fname" placeholder="Your name..">
+   <label for="lname">Last name:</label>
+   <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+   <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+   <option value="male">Male &#9794 </option>
+   <option value="female">Female &#9792 </option>
+   <option value="other">Other &#9892</option>
+  </select>
+
+   <label for="description">About me: </label>
+
+  <textarea id="description" name="description" placeholder="Describe yourself..">
+  </textarea>
+
+<h3> What gender would you like to match with? </h3> 
+   <input type="radio" id="male" name="gender" value="Male"> 
+   <label for="male">Male &#9794</label>
+   <input type="radio" id="female" name="gender" value="Female">
+   <label for="female">Female &#9792</label>
+   <input type="radio" id="other" name="gender" value="Other">
+   <label for="other">Other &#9892</label>
+
+<h3> In what age category would you like to look for matches? </h3>
+   <input type="checkbox" id="option1" name="option1" value="Age">
+   <label for="option1"> 18-28</label>
+   <input type="checkbox" id="option2" name="option2" value="Age">
+   <label for="option2"> 28-38</label>
+   <input type="checkbox" id="option3" name="option3" value="Age">
+   <label for="option3"> 38-48</label>
+   <input type="checkbox" id="option4" name="option4" value="Age">
+   <label for="option4"> 48-58</label>
+
+  
+   <input type="submit" value="Submit">
+  
+ </form>
+</main>
+
+<footer>
+  <p class="footer-text"> Contact us at:  <a href="mailto:jeffrey_vitessedelft@live.nl">jeffrey_vitessedelft@live.nl </a> </p>
+</footer>
+  
+</body>
+</html>
